@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>CV: SALMA SAIDI</h1>
+    <hr />
+    <nav>
+      <a href="Acceuil.html">Acceuil</a>
+      <a href="Parcour.html">Parcours</a>
+      <a href="Contact.html">Contact</a>
+
+      <br />
+    </nav>
+    <h1><u>Info</u></h1>
+    <h2><strong>contact</strong></h2>
+    <strong>Telephone</strong>
+    <a href="tel:06142782969" target="_blank"> 06142782969</a>
+    <br />
+    <strong> gmail</strong>
+    <a href="mailto:saidisalma594.gmail.com">saidisalma594.gmail.com</a>.<br />
+
+    <br />
+    <a href="https://www.facebook.com/salma.saidi.58726823" target="_blank">
+      facebook:</a
+    >
+    &copy;COPYRIGHT@2022
+    <hr />
+    <strong>Formulaire</strong>
+    <form>
+      <fieldset>
+        <legend>Information Personnelle</legend>
+        <div>
+          <label for="Nom">Nom</label> <input type="text" id="Nom" name="Nom" />
+        </div>
+
+        <div>
+          <label for="Prenom">Prenom</label>
+          <input type="text" id="Prenom" name="Prenom" />
+        </div>
+
+        <div>
+          <label for="Date_de_Naissance">Date de Naissance</label>
+          <input type="date" id="Date_de_Naissance" name="Date de Naissance" />
+        </div>
+
+        <div>
+          <label for="Email">Email</label>
+          <input
+            id="Email"
+            name="Email"
+            placeholder="Email"
+            autocomplete="off"
+          />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Autre</legend>
+        <strong>Description:</strong>
+        <textarea name="message" rows="10" cols="30"></textarea>
+        <div>
+          <strong>sex:</strong>
+          <input type="radio" id="Masculin" name="sex" value="radio" />
+          <label for="Masculin">Masculin</label>
+          <input type="radio" id="Feminin" name="sex" value="radio" />
+          <label for="Feminin">Feminin</label>
+          <input type="radio" id="Autre" name="sex" value="radio" />
+          <label for="Autre">Autre</label>
+        </div>
+
+        <div>
+          <label for="pwd">Password:</label>
+          <input type="password" id="pwd" name="pwd" />
+        </div>
+
+        <div>
+          <label for="quantity">Nombre d'enfants:</label>
+          <input type="number" id="quantity" name="quantity" min="0" max="5" />
+        </div>
+
+        <div>
+          <strong>Possession:</strong>
+          <input
+            type="checkbox"
+            id="possession1"
+            name="possession1"
+            value="voiture"
+          />
+          <label for="possession1"> voiture</label>
+          <input
+            type="checkbox"
+            id="possession2"
+            name="possession2"
+            value="Moto"
+          />
+          <label for="possession2"> Moto</label>
+          <input
+            type="checkbox"
+            id="possession3"
+            name="possession3"
+            value="Maison"
+          />
+          <label for="possession3"> Maison</label>
+        </div>
+
+        <div>
+          <label for="reseau">comment vous nous avez connu:</label>
+          <select name="reseau" id="reseau">
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Amis">Amis</option>
+            <option value="Autre">Autre</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <input type="submit" value="Enregister" />
+      <input type="reset" value="Annuler" />
+    </form>
+  </body>
+</html>
